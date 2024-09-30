@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Cash Register</title>
+</head>
+<body>
+    <h1 class="hero-title">Cash Register Project</h1>
+    
+    <main>
+        <div id="change-due" ></div>
+        
+        <label for="cash">Enter cash from customer:</label>
+        <input type="number" id="cash" />
+
+        <button type="button" id="purchase-btn">Purchase</button>
+    </main>
+
+    <div class="cash-register">
+        <p class="price-display">Total: <span id="price"></span></p>
+
+        <div class="stand"></div>
+
+        <div class="top-compartment">
+            <div class="buttons">
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+            </div>
+            <div class="register-screen">
+                <p class="cid-title">Cash in drawer:</p>
+                <p class="currency">Pennies: <span class="currency-value"></span></p>
+                <p class="currency">Nickels: <span class="currency-value"></span></p>
+                <p class="currency">Dimes: <span class="currency-value"></span></p>
+                <p class="currency">Quarters: <span class="currency-value"></span></p>
+                <p class="currency">Ones: <span class="currency-value"></span></p>
+                <p class="currency">Fives: <span class="currency-value"></span></p>
+                <p class="currency">Tens: <span class="currency-value"></span></p>
+                <p class="currency">Twenties: <span class="currency-value"></span></p>
+                <p class="currency">Hundreds: <span class="currency-value"></span></p>
+            </div>
+        </div>
+        <div class="bottom-compartment">
+            <div class="drawer-knob"></div>
+        </div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

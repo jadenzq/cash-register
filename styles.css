@@ -1,0 +1,120 @@
+html {
+    font-family: "Georgia";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #eeece972;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 20px;
+}
+
+.hero-title {
+    text-align: center;
+}
+
+.cash-register {
+    margin: 50px;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-display {
+    width: 150px;
+    border: 10px solid rgb(228, 228, 172);
+    background-color: rgb(184, 216, 136);
+    padding: 10px;
+    margin: 0;
+}
+
+.stand {
+    width: 20px;
+    height: 50px;
+    background-color: rgb(228, 228, 172);
+}
+
+.top-compartment {
+    width: 300px;
+    background-color: rgb(228, 228, 172);
+    padding: 20px;
+    display: flex;
+    gap: 0 20px;
+}
+
+.bottom-compartment {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(228, 228, 172);
+    margin-top: 20px;
+}
+
+.buttons {
+    width: 30%;
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: max-content max-content max-content;
+}
+
+.button {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin: auto;
+}
+
+.register-screen {
+    flex-grow: 1;
+    background-color: white;
+    padding: 10px;
+}
+
+.cid-title {
+    margin: 0;
+    font-weight: 700;
+}
+
+.bottom-compartment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drawer-knob {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+#cash {
+    padding: 5px;
+    font: inherit;
+    width: 180px;
+    /* justify-self: center; */
+}
+
+#purchase-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font: inherit;
+    width: 180px;
+}
+
+#purchase-btn:hover {
+    cursor: pointer;
+}
